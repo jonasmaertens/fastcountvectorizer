@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel", "Cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastcountvectorizer"
+version = "0.1.0"
+authors = [
+    { name = "Jonas Märtens", email = "jonas.maertens@hotmail.de" }
+]
+description = "CountVectorizer optimized for performance. Based on the scikit-learn CountVectorizer"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+]
+
+[project.optional-dependencies]
+test = [
+    "flake8",
+    "pytest",
+]
