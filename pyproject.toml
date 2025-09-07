@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "fastcountvectorizer"
 version = "0.1.0"
 authors = [
-    { name = "Jonas Märtens", email = "***REMOVED***" }
+    { name = "Jonas Märtens" }
 ]
 description = "CountVectorizer optimized for performance. Based on the scikit-learn CountVectorizer"
 readme = "README.md"
